@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PaymentFragment"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/fp_iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/payment_screen"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"/>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_below="@id/fp_iv_logo"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:background="@drawable/red_border_bg"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:gravity="center_horizontal">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:text="@string/heading_payment"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/colorPrimary" />-->
+
+    <!--        <TableLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginVertical="10dp">-->
+
+    <!--            <TableRow>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_column="1"-->
+    <!--                    android:text="Bank Name: "-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    android:textColor="@color/colorBlueDark"-->
+    <!--                    android:padding="5dp"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_column="2"-->
+    <!--                    android:text="Some Bank of India"-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textColor="@color/colorPrimaryDark"-->
+    <!--                    android:padding="5dp"/>-->
+    <!--            </TableRow>-->
+
+    <!--            <TableRow>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_column="1"-->
+    <!--                    android:text="Account No.: "-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    android:textColor="@color/colorBlueDark"-->
+    <!--                    android:padding="5dp"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_column="2"-->
+    <!--                    android:text="1234567890"-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textColor="@color/colorPrimaryDark"-->
+    <!--                    android:padding="5dp"/>-->
+    <!--            </TableRow>-->
+
+    <!--            <TableRow>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_column="1"-->
+    <!--                    android:text="IFSC Code: "-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    android:textColor="@color/colorBlueDark"-->
+    <!--                    android:padding="5dp"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_column="2"-->
+    <!--                    android:text="Some456"-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textColor="@color/colorPrimaryDark"-->
+    <!--                    android:padding="5dp"/>-->
+    <!--            </TableRow>-->
+    <!--        </TableLayout>-->
+
+
+    <!--    </LinearLayout>-->
+
+
+
+</RelativeLayout>
